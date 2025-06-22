@@ -1,41 +1,48 @@
-# Website
+# Křížovna
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Moderní webová aplikace pro křížovky a hádanky postavená na [Docusaurus](https://docusaurus.io/).
 
-## Installation
+## 🚀 Živá aplikace
 
-```bash
-yarn
-```
+Aplikace je dostupná na: [https://mrnavdal.github.io/krizovna/](https://mrnavdal.github.io/krizovna/)
 
-## Local Development
+## 🛠️ Instalace
 
 ```bash
-yarn start
+npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+## 🏃‍♂️ Lokální vývoj
 
 ```bash
-yarn build
+npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Tento příkaz spustí lokální vývojový server a otevře prohlížeč. Většina změn se projeví okamžitě bez nutnosti restartovat server.
 
-## Deployment
-
-Using SSH:
+## 🏗️ Build
 
 ```bash
-USE_SSH=true yarn deploy
+npm run build
 ```
 
-Not using SSH:
+Tento příkaz vygeneruje statický obsah do složky `build`, který lze nasadit na jakoukoliv statickou hosting službu.
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## 📱 Funkce
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- **PWA (Progressive Web App)** - lze nainstalovat jako nativní aplikace
+- **Offline podpora** - funguje bez internetového připojení
+- **Responzivní design** - optimalizováno pro všechny zařízení
+- **Český jazyk** - plně lokalizováno
+
+## 🚀 Nasazení
+
+Aplikace se automaticky nasazuje na GitHub Pages při push na main branch pomocí GitHub Actions.
+
+## 📁 Struktura projektu
+
+- `src/` - Zdrojové soubory
+- `docs/` - Dokumentace
+- `blog/` - Blog příspěvky
+- `static/` - Statické soubory (obrázky, manifest)
+- `.github/workflows/` - GitHub Actions workflow

@@ -26,7 +26,7 @@ git push origin main
 
 ### 3. Kontrola nasazení
 
-1. Po úspěšném nasazení najdete vaši aplikaci na: `https://dalibor.github.io/krizovna/`
+1. Po úspěšném nasazení najdete vaši aplikaci na: `https://mrnavdal.github.io/krizovna/`
 2. GitHub Actions workflow můžete sledovat v záložce **Actions** vašeho repository
 
 ## Funkce aplikace
