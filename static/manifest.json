@@ -3,7 +3,9 @@
   "short_name": "Křížovna",
   "description": "Aplikace pro křížovky a hádanky",
   "start_url": "/krizovna/",
+  "scope": "/krizovna/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#ffffff",
   "theme_color": "#25c2a0",
   "orientation": "portrait-primary",
@@ -22,5 +24,6 @@
     }
   ],
   "categories": ["games", "puzzle", "education"],
-  "lang": "cs"
+  "lang": "cs",
+  "prefer_related_applications": false
 } 

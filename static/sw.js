@@ -1,10 +1,11 @@
 // Service Worker pro Křížovna PWA
 const CACHE_NAME = 'krizovna-v1';
+const BASE = self.location.pathname.startsWith('/krizovna') ? '/krizovna' : '';
 const urlsToCache = [
-  '/',
-  '/manifest.json',
-  '/img/logo.svg',
-  '/img/favicon.ico',
+  BASE + '/',
+  BASE + '/manifest.json',
+  BASE + '/img/logo.svg',
+  BASE + '/img/favicon.ico',
   // Přidejte další důležité soubory podle potřeby
 ];
 

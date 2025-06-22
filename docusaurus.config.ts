@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'dalibor', // Usually your GitHub org/user name.
+  organizationName: 'mrnavdal', // Usually your GitHub org/user name.
   projectName: 'krizovna', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -89,12 +89,12 @@ const config: Config = {
             {
               tagName: 'link',
               rel: 'icon',
-              href: '/img/docusaurus.png',
+              href: 'img/docusaurus.png',
             },
             {
               tagName: 'link',
               rel: 'manifest',
-              href: '/manifest.json', // your PWA manifest
+              href: 'manifest.json',
             },
             {
               tagName: 'meta',
@@ -103,7 +103,7 @@ const config: Config = {
             },
             {
               tagName: "script",
-              src: "/sw-register.js",
+              src: "sw-register.js",
             },
           ],
         },
